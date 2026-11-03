@@ -1,0 +1,16 @@
+{
+  "name": "adwaith_portfolio_auth",
+  "version": "1.0.0",
+  "description": "Portfolio Auth System for Adwaith P",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "seed": "node seed.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "dotenv": "^18.0.9",
+    "express": "^5.3.0",
+    "mongoose": "^9.11.4"
+  }
+}
